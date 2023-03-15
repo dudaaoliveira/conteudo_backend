@@ -41,7 +41,7 @@
   var_dump($variavel);
 
   echo "<p>&nbsp;</p>";
-  echo $variavel[o] . "<br>";
+  echo $variavel[0] . "<br>";
   echo $variavel[1] . "<br>";
   echo $variavel[2] . "<br>";
   echo $variavel[3] . "<br>";
@@ -53,8 +53,11 @@ echo "<p>&nbsp;</p>";
 
   //vetor de notas
   $notas = array(5,6,8);
+
   //como calcular a média de notas do vetor?
-  $media = ...
+  $media = ($notas[0] + $notas[1] + $notas[2]) /3;
+
   //imprimir a média
   echo $media;
+
   ?>
