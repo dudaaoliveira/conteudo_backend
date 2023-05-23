@@ -12,7 +12,7 @@
   <div class="container">
   <h1>Usuários</h1>
 
-  <a href="form_usuario.php" class="btn btn-sucess">
+  <a href="formulario.php" class="btn btn-sucess">
       Inserir Novo
 </a>
 
